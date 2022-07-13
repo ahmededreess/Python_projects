@@ -3,7 +3,7 @@
 #### libraries I used (Requests - BeautifulSoup  - csv - ziplongest) 
 
 the code as the following : 
-
+``` 
 import requests 
 from bs4 import BeautifulSoup 
 import csv
@@ -55,4 +55,4 @@ with open('D:\Software\Python\Projects\webscraping_3.csv','w') as myfile:
     wr = csv.writer(myfile)
     wr.writerow(["job_title","company","Location"])
     wr.writerows(exported)
-
+```
